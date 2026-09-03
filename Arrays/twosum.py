@@ -4,6 +4,6 @@ def two_sum(nums, target):
             if nums[i] + nums[j] == target:
                 return [i, j]
 nums = [2, 7, 11, 15]
-target = 9
+target = 17
 result = two_sum(nums, target)
-print(result)  # Output: [0, 1]            
+print(result)             
